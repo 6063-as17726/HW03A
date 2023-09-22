@@ -1,5 +1,10 @@
 # p5.js Template
 
+This code is a pattern compromising of small and big ellipses. 
+For my process, I first decided to make an even pattern of small ellipses over the entire canvas. 
+Once that was done, I began creating the bigger ellipses such that they overlap the smaller ellipses alternatively. Since they were both black, I did not have to remove the smaller ellipses in those spaces. 
+
+
 This is a README file that can be used to describe and document your assignment.
 
 Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
