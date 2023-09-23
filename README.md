@@ -3,7 +3,8 @@
 This code is a pattern compromising of small and big ellipses. 
 For my process, I first decided to make an even pattern of small ellipses over the entire canvas. 
 Once that was done, I began creating the bigger ellipses such that they overlap the smaller ellipses alternatively. Since they were both black, I did not have to remove the smaller ellipses in those spaces. 
-
+The next step was to alternate the big ellipses, which was the most challenging part. I intitially used % with xpos and ypos, but with the help of some sketching, I realized that it would not work. So, I created a variable 'x', which incremented with the loop. Based on the 'x' value, the big ellipses would start either at the 0 position, or the second position, which was 40. 
+![D9GRS4.jpg](https://imgpile.com/images/D9GRS4.jpg)
 
 This is a README file that can be used to describe and document your assignment.
 
