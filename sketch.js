@@ -2,7 +2,6 @@
 //let ypos = 0;
 let mindiam = 10;
 let maxdiam = 20;
-let x = 0;
 
 function setup() {
   createCanvas(windowWidth,windowHeight);
@@ -19,6 +18,7 @@ function draw() {
     }
   }
   //big ellipse
+  let x = 0;
   for(xpos = 0; xpos<=windowWidth;xpos+=2*maxdiam){
     x+=1;
     if(x%2==0){
